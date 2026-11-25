@@ -1,0 +1,9 @@
+{
+  "additionalFiles": "../..,../../..",
+  "compiler.optimization_flags": "",
+  "customBuildProperties": "",
+  "fqbn": "archlinux-arduino:avr:uno",
+  "hardwareFolders": "/usr/share/arduino/hardware/archlinux-arduino/avr,/usr/share/arduino/hardware/archlinux-arduino/avr",
+  "otherLibrariesFolders": "/usr/share/arduino/libraries",
+  "sketchLocation": "/home/harris/Programming/Uni/Bioreactor"
+}

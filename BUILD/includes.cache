@@ -1,0 +1,52 @@
+[
+  {
+    "added_include_path": "/usr/share/arduino/hardware/archlinux-arduino/avr/cores/arduino"
+  },
+  {
+    "added_include_path": "/usr/share/arduino/hardware/archlinux-arduino/avr/variants/standard"
+  },
+  {
+    "compile": {
+      "source_path": "/home/harris/Programming/Uni/Bioreactor/BUILD/sketch/Bioreactor.ino.cpp.merged",
+      "depfile_path": "/home/harris/Programming/Uni/Bioreactor/BUILD/sketch/Bioreactor.ino.cpp.merged.libsdetect.d"
+    },
+    "compile_task": {
+      "args": [
+        "/usr/bin/avr-g++",
+        "-c",
+        "-g",
+        "-Os",
+        "-w",
+        "-std=gnu++11",
+        "-fpermissive",
+        "-fno-exceptions",
+        "-ffunction-sections",
+        "-fdata-sections",
+        "-fno-threadsafe-statics",
+        "-Wno-error=narrowing",
+        "-flto",
+        "-w",
+        "-x",
+        "c++",
+        "-E",
+        "-CC",
+        "-mmcu=atmega328p",
+        "-DF_CPU=16000000L",
+        "-DARDUINO=10607",
+        "-DARDUINO_AVR_UNO",
+        "-DARDUINO_ARCH_AVR",
+        "-I/usr/share/arduino/hardware/archlinux-arduino/avr/cores/arduino",
+        "-I/usr/share/arduino/hardware/archlinux-arduino/avr/variants/standard",
+        "/home/harris/Programming/Uni/Bioreactor/BUILD/sketch/Bioreactor.ino.cpp.merged",
+        "-o",
+        "/dev/null",
+        "-MMD",
+        "-MF",
+        "/home/harris/Programming/Uni/Bioreactor/BUILD/sketch/Bioreactor.ino.cpp.merged.libsdetect.d"
+      ]
+    }
+  },
+  {
+    "missing_include_h": ""
+  }
+]
